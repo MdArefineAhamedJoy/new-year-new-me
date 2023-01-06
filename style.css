@@ -4,7 +4,16 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
-
+/*           common  style      */
+.bg-primary {
+    background-color: #ff8c00;
+    padding: 20px 34px;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
 /*           header section style           */
 
 .banner-container {
@@ -19,27 +28,19 @@
 .banner-contand {
   width: 60%;
   text-align: right;
-  margin-right: 90px;
+  margin-right: 55px;
   padding: 50px 100px 0 52px;
 }
 .banner-title {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 700;
 }
 .banner-contand p {
   color: #444343;
-  margin: 24px 0 32px;
+  margin: 24px 0 20px;
   padding-left: 200px;
 }
-.bg-primary {
-  background-color: #ff8c00;
-  padding: 20px 34px;
-  color: white;
-  border: 0;
-  font-size: 20px;
-  font-weight: 600;
-  border-radius: 10px;
-}
+
 
 /*           failer section style           */
 
