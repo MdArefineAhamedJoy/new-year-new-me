@@ -47,7 +47,6 @@
   margin: 120px auto;
   display: flex;
   align-items: center;
-  background-color: blue;
 }
 .failures-img img {
   height: 700px;
@@ -73,22 +72,71 @@
   color: green;
 }
 /*     plan container style    */
-.plans-title{
-    text-align: center;
-    margin: 100px;
-    font-size: 40px;
+.plans-title {
+  text-align: center;
+  margin: 100px;
+  font-size: 40px;
 }
-.plan-container{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
+.plan-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
-.plan-container h2{
-    padding: 16px 0 8px;
-    font-size: 30px;
+.plan-container h2 {
+  padding: 16px 0 8px;
+  font-size: 30px;
 }
-.plan-container h5{
-    font-size: 20px;
-    color: #737272;
-    font-weight: 500;
+.plan-container h5 {
+  font-size: 20px;
+  color: #737272;
+  font-weight: 500;
+}
+/*    motibeted section style     */
+.motiveteds {
+  width: 80%;
+  height: 300px;
+  margin: 125px auto;
+  background-image: url(images/watch.png),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-blend-mode: overlay;
+}
+.motive-title {
+  padding: 60px 64px 20px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.motiveteds .bg-primary {
+  margin-left: 64px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 60vh;
+  color: #ffffff;
+  gap: 50px;
+}
+.footer-contend {
+  width: 50%;
+  margin-right: 70px;
+}
+.footer-contend h2 {
+  padding: 0px 16px 16px 0;
+}
+.footer-contend p {
+  padding: 0px 100px 16px 0;
+  margin:0 100px 10px 0; 
+}
+.footer-contend table{
+    margin-bottom: 10px;
+}
+.footer-contend img {
+  padding: 30px 10;
+}
+.contuctd input {
+  margin: 20px 0;
+  padding: 20px 40px;
 }
