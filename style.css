@@ -20,7 +20,6 @@
   text-align: right;
   margin-right: 90px;
   padding: 50px 100px 0 52px;
- 
 }
 .banner-title {
   font-size: 65px;
@@ -31,12 +30,45 @@
   margin: 24px 0 32px;
   padding-left: 200px;
 }
-.bg-primary{
-   background-color: #FF8C00;
-   padding: 20px 34px;
-   color: white;
-   border: 0;
-   font-size: 20px;
-   font-weight: 600;
-   border-radius: 10px;
+.bg-primary {
+  background-color: #ff8c00;
+  padding: 20px 34px;
+  color: white;
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+/*     failer section style    */
+
+.failures {
+  width: 90%;
+  margin: 120px auto;
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+}
+.failures-img img {
+  height: 700px;
+  width: 569px;
+  margin-bottom: 150px;
+}
+.failures-contend {
+  margin-left: 70px;
+}
+.failur-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.failur-dsc {
+  color: #444343;
+  padding: 20px 100px 10px 0;
+}
+.failur-lists {
+  padding-left: 5px;
+  list-style-type: none;
+}
+.fa-solid {
+  color: green;
 }
