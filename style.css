@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
 }
 
-/*   header section style  */
+/*           header section style           */
 
 .banner-container {
   width: 100%;
@@ -40,7 +41,7 @@
   border-radius: 10px;
 }
 
-/*     failer section style    */
+/*           failer section style           */
 
 .failures {
   width: 90%;
@@ -71,7 +72,8 @@
 .fa-solid {
   color: green;
 }
-/*     plan container style    */
+/*        plan container style       */
+
 .plans-title {
   text-align: center;
   margin: 100px;
@@ -91,7 +93,9 @@
   color: #737272;
   font-weight: 500;
 }
-/*    motibeted section style     */
+
+/*           motibeted section style            */
+
 .motiveteds {
   width: 80%;
   height: 300px;
@@ -109,6 +113,9 @@
 .motiveteds .bg-primary {
   margin-left: 64px;
 }
+
+/*            footer section             */
+
 footer {
   display: flex;
   justify-content: center;
