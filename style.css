@@ -146,4 +146,6 @@ footer {
 .contuctd input {
   margin: 20px 0;
   padding: 20px 40px;
+  background-color: black;
+  font-size: 18px;
 }
